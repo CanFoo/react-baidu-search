@@ -1,0 +1,122 @@
+div, ul, li, input{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container {
+    width: 800px;
+    margin: 100px auto 0px;
+    text-align: center;
+    position: relative;
+}
+.container p {
+    font-size: 41px;
+    color: #E91E63;
+    font-weight: bolder;
+    animation: fadeInDown 3s;
+    -webkit-animation: fadeInDown 3s;
+    -o-animation: fadeInDown 3s;
+    -ms-animation: fadeInDown 3s;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-moz-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-o-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.container > div {
+    margin: 30px 0;
+}
+#text {
+    height: 40px;
+    width: 536px;
+    font-size: 16px;
+    text-indent: 10px;
+    outline: none;
+}
+#btn {
+    width: 102px;
+    height: 44px;
+    font-size: 16px;
+    border: none;
+    background-color: #38f;
+    color: white;
+    margin-left: -8px;
+    cursor: pointer;
+    outline: none;
+}
+ul {
+    width: 531px;
+    border: 1px solid rgba(153, 153, 153, 0.39);
+    cursor: initial;
+    display: none;
+    border-top: 0;
+    margin-left: 83px;
+}
+ul li {
+    text-align: left;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+    color: #000;
+    font-size: 16px ;
+}
+ul li:hover {
+    background: #ececec;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    padding-top: 1px;
+}
