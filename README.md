@@ -3,8 +3,6 @@
 
 ###[redux middleware 的理解](http://www.cnblogs.com/canfoo/p/6119446.html)
 
-如果觉得此项目或者博客能帮助到你，请给颗start吧。^9^
-
 # 如何使用
 1. 下载项目
 2. npm install
